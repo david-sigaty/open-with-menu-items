@@ -1,0 +1,15 @@
+{
+    "name": "com.teamcitrus.open-with-menu-items",
+    "version": "1.0.0",
+    "displayName": "Open With... Menu Items",
+    "description": "Extendable menu items that open files in external applications.\nExamples:\n \u25AA Notepad++: https://github.com/david-sigaty/open-with-npp\n \u25AA Photoshop: https://github.com/david-sigaty/open-with-ps\n \u25AA GIMP: https://github.com/david-sigaty/open-with-gimp",
+    "unity": "2018.1",
+    "keywords": [
+        "tools",
+        "editor"
+    ],
+	"author": {
+	    "name": "Team Citrus",
+		"email": "david@sigaty.dev"
+	}
+}
