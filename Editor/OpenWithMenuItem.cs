@@ -18,7 +18,7 @@ namespace TeamCitrus.Editor
 		public const string BasePath = "Assets/Open With.../";
 		public const string OpenPath = "Assets/Open with ";
 		public const string EditPath = "Assets/Edit with ";
-		public const int BasePriority = -2000;
+		public const int BasePriority = -10000;
 		
 		// Gets all selected asset paths
 		private static List<string> AssetPaths
@@ -183,7 +183,7 @@ namespace TeamCitrus.Editor
 			return output;
 		}
 		
-		[MenuItem(BasePath + "Setup Paths", false, BasePriority)]
+		[MenuItem(BasePath + "Setup Paths", false, BasePriority + 1000)]
 		private static void SetupPaths()
 		{
 			OpenWithMenuItemsPathSetup window = EditorWindow.GetWindow<OpenWithMenuItemsPathSetup>(true, "'Open With...' Path Setup", true);
