@@ -183,7 +183,7 @@ namespace TeamCitrus.Editor
 			return output;
 		}
 		
-		[MenuItem(BasePath + "Setup Paths", false, 0)]
+		[MenuItem(BasePath + "Setup Paths", false, BasePriority)]
 		private static void SetupPaths()
 		{
 			OpenWithMenuItemsPathSetup window = EditorWindow.GetWindow<OpenWithMenuItemsPathSetup>(true, "'Open With...' Path Setup", true);
